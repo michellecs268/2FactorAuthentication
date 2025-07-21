@@ -41,13 +41,16 @@ Why the PIN Values Don’t Leak Password Information:
   method that transforms the username, password, and current time into a unique
   code. This process is one-way, which means it’s nearly impossible to figure out
   the original username or password just by looking at the OTP.
+
 - Time-Sensitive: The OTP changes every 15 seconds based on the current time.
   So, even if someone manages to get an OTP, it only works for a short time,
   making it less useful for attackers.
+
 - Extra Security with PIN: The PIN is separate from the password, adding another
   layer of security. Even if someone knows your password, they still need the
   correct PIN to access your account. This makes it harder for anyone to get in
   without full credentials.
+
 - Hard to Guess: Because the OTP is generated based on the current time and
   requires both the username and password, it’s really difficult for someone to
   guess it. An attacker would need to know your username, password, and the
