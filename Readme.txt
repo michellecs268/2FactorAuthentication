@@ -1,4 +1,4 @@
-##Example running in MacOS:
+# Example running in MacOS:
 
 # create and use virtual environment
 python en venv
@@ -12,7 +12,8 @@ python3 connect.py Alice new                /  python connect.py Alice new
 python3 connect.py Alice Alice7894508 PIN   /  python connect.py Alice Alice7894508 PIN
 
 
-##Explanation of the Relationship:
+
+# Explanation of the Relationship:
 
 Credential Storage (Passwords.txt):
 - This file is used to store user credentials in a simple format where each
